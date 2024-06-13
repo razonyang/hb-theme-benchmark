@@ -15,6 +15,18 @@ title_sections_depth_dir: end # when start, the depth is counting from the root 
 permalinks:
   blog: /blog/:year/:month/:title
 
+cascade:
+  - _target:
+      path: /test/**
+    build:
+      list: never
+      render: never
+  - _target:
+      path: /archives/**
+    build:
+      list: never
+      render: never
+
 outputs:
   home:
     - HTML
