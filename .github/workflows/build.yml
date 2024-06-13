@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-22.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -22,8 +22,12 @@ jobs:
 
       - uses: actions/cache@v4
         with:
-          path: /home/runner/.cache/hugo_cache    # <-- with hugo version v0.116.0 and above
-          # path: /tmp/hugo_cache                 # <-- with hugo version < v0.116.0
+          path: resources
+          key: hugo-resources
+
+      - uses: actions/cache@v4
+        with:
+          path: /home/runner/.cache/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
