@@ -31,6 +31,10 @@ hb:
     # the paginate for categories, tags, series list pages.
     paginate: 12
   blog:
+    list_style: minimalist
+    terms:
+      list_style: minimalist
+      profile_metrics: false
     sidebar:
       profile:
         # title: Profile title other than site title.
