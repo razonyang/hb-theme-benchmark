@@ -40,4 +40,4 @@ jobs:
       - run: ./node_modules/.bin/lorem-ipsum-generator -n 2000
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify | npx hugo-metrics-parser
