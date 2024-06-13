@@ -37,7 +37,7 @@ jobs:
         with:
           extended: true
 
-      - run: ./node_modules/.bin/lorem-ipsum-generator -n 4000
+      - run: ./node_modules/.bin/lorem-ipsum-generator -n 5000
 
       - name: Build
         run: hugo --minify | npx hugo-metrics-parser
