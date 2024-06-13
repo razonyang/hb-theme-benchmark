@@ -37,5 +37,7 @@ jobs:
         with:
           extended: true
 
+      - run: ./node_modules/.bin/lorem-ipsum-generator -n 10000
+
       - name: Build
         run: hugo --minify
