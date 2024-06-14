@@ -19,9 +19,7 @@ cascade:
   - _target:
       path: /**
     params:
-      meta:
-        taxonomies: false
-        reading_time: false
+      meta: false
   - _target:
       path: /test/**
     build:
