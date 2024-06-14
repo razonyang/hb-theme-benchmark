@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-22.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+    strategy:
+      matrix:
+        posts: [1000, 2000, 3000, 4000, 5000, 6000, 7000]
     steps:
       - uses: actions/checkout@v4
 
@@ -37,7 +40,7 @@ jobs:
         with:
           extended: true
 
-      - run: ./node_modules/.bin/lorem-ipsum-generator -n 5000
+      - run: ./node_modules/.bin/lorem-ipsum-generator -n ${{ matrix.posts }}
 
       - name: Build
         run: hugo --minify | npx hugo-metrics-parser
