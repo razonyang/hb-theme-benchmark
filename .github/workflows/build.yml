@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        posts: [1000, 2000, 3000, 4000, 5000, 6000, 7000]
+        posts: [1000, 2000, 3000, 4000, 5000, 6000]
     steps:
       - uses: actions/checkout@v4
 
