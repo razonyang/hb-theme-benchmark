@@ -6,8 +6,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-22.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     strategy:
       matrix:
         posts: [1000, 2000, 3000, 4000, 5000, 6000, 7000]
