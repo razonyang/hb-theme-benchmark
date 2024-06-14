@@ -17,6 +17,11 @@ permalinks:
 
 cascade:
   - _target:
+      path: /**
+    params:
+      meta:
+        taxonomies: false
+  - _target:
       path: /test/**
     build:
       list: never
