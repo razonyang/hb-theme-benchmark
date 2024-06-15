@@ -56,6 +56,8 @@ github.com/hbstack/blog v0.35.1 h1:2fHcVrZwMuJI6sD1WgvInWfTkakIwpf4SGXxiNd0sKo=
 github.com/hbstack/blog v0.35.1/go.mod h1:/A1EQoCCs9zlcn7dWecP0YMUmH2n1juv3DO4e/mfQ+o=
 github.com/hbstack/blog v0.35.2 h1:7covDMFvTVyie7YYg5tCRB6pGNwnUMTslimSHoK/ffs=
 github.com/hbstack/blog v0.35.2/go.mod h1:6uWETL+fybTZEKOJ1BEMXG84B+Ucy0GmfFy1t8Itjjg=
+github.com/hbstack/blog v0.35.3 h1:+4ZguNbQthqn37mCKzfXdBpy8Ud8NV/1ch9hI4zLh4k=
+github.com/hbstack/blog v0.35.3/go.mod h1:4yQsuqIiYIyQCLWxgaueK3lRCmAm30pVRdwGEdHE95I=
 github.com/hbstack/blog/modules/breadcrumb v0.1.22 h1:NDcjR5805LBDRcLaDF12VAIAJiRqCL/e/GX+1DE7O0k=
 github.com/hbstack/blog/modules/breadcrumb v0.1.22/go.mod h1:abqj7FTsHihbv3B2szGm4YmVGVZWzWg2VVA5ZhqUyKY=
 github.com/hbstack/blog/modules/breadcrumb v0.1.23 h1:MgUR88vv4cs/M1/cVBKUInFw3DcRw0W2AlmmcdhxewY=
@@ -180,6 +182,8 @@ github.com/hbstack/gallery v0.11.0/go.mod h1:ni5LadxEx6YVdu+/67+VQZ0FEgSAj5Zqd+t
 github.com/hbstack/gallery v0.12.0/go.mod h1:FeLNZqjpKCj1ryfPoTJVk59Bph2N1BfDcNBHyudWT4o=
 github.com/hbstack/gallery v0.13.0 h1:xIS5vK0g4wlxgNjxBOdn+9E5n1VsQiZNjBUX5IcPBpQ=
 github.com/hbstack/gallery v0.13.0/go.mod h1:FeLNZqjpKCj1ryfPoTJVk59Bph2N1BfDcNBHyudWT4o=
+github.com/hbstack/gallery v0.13.1 h1:4raqbENd7EjTM7ump0EItIAkYQQFhnUwQ35e7wgh+40=
+github.com/hbstack/gallery v0.13.1/go.mod h1:SlO4eo4aoLjjTfrqEnTEr6ocabHrqZjclWDCI1bUY+o=
 github.com/hbstack/gallery/modules/breadcrumb v0.1.0 h1:zenzwq4EiE2PIB2gx8QU4I2Zx9KAK901EWpgLGu5XqA=
 github.com/hbstack/gallery/modules/breadcrumb v0.1.0/go.mod h1:7E1zwN0GC59OsXAUEALUiYWJhQw5hGPnpHfRHQDS/5Q=
 github.com/hbstack/gallery/modules/breadcrumb v0.1.1 h1:hPP+FuHcBo2nieDA3eY/f7714JBe/egECb6TRnmPHTo=
@@ -298,6 +302,7 @@ github.com/hugomods/base v0.5.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLO
 github.com/hugomods/base v0.6.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/base v0.7.0 h1:KEZ1HrZdkx1Yt8BKE750a+zJOusLz9iefU2clqw6duc=
 github.com/hugomods/base v0.7.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
+github.com/hugomods/base v0.7.1/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/bootstrap v0.17.0 h1:oH+V92q5W/kye9QPSQdZXYsO3V2wyfkAjdYLPFIfjPI=
 github.com/hugomods/bootstrap v0.17.0/go.mod h1:EA5CtuNQX+aNkwEt1xae7clZ+4087KFXWZGE+2/f5oc=
 github.com/hugomods/bootstrap v0.17.1/go.mod h1:njaGUZ2BIU2ypcXqb3JPP/aETSXWG2vlh5qMgcYHk4s=

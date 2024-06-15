@@ -10,7 +10,7 @@ require (
 	github.com/hbstack/back-to-top v0.2.0 // indirect
 	github.com/hbstack/base v0.6.1 // indirect
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
-	github.com/hbstack/blog v0.35.2 // indirect
+	github.com/hbstack/blog v0.35.3 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.23 // indirect
 	github.com/hbstack/blog/modules/content-panel v0.1.21 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
@@ -39,7 +39,7 @@ require (
 	github.com/hbstack/featured-image v0.2.1 // indirect
 	github.com/hbstack/footer v0.4.1 // indirect
 	github.com/hbstack/footer/modules/socials v0.3.0 // indirect
-	github.com/hbstack/gallery v0.13.0 // indirect
+	github.com/hbstack/gallery v0.13.1 // indirect
 	github.com/hbstack/gallery/modules/breadcrumb v0.1.1 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/hb v0.12.2 // indirect
@@ -65,7 +65,7 @@ require (
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.17 // indirect
 	github.com/hugomods/ascii v0.1.0 // indirect
-	github.com/hugomods/base v0.7.0 // indirect
+	github.com/hugomods/base v0.7.1 // indirect
 	github.com/hugomods/bootstrap v0.22.2 // indirect
 	github.com/hugomods/code-block-panel v0.7.0 // indirect
 	github.com/hugomods/font-awesome v6.5.2+incompatible // indirect
