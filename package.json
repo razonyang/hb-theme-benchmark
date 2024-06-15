@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "@hugomods/lorem-ipsum-generator": "^0.2.1",
-    "@hugomods/metrics-parser": "^0.1.0"
+    "@hugomods/metrics-parser": "^0.3.0"
   }
 }
