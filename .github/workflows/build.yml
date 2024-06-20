@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
+        version: ['master', 'latest']
         posts: [1000, 2000, 3000, 4000, 5000]
         docs: [100]
     steps:
@@ -38,6 +39,7 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           extended: true
+          version: ${{ matrix.version }}
 
       - run: npx lorem-ipsum-generator -n ${{ matrix.posts }} -o content/blog
 
