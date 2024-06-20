@@ -35,8 +35,15 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
+      - uses: actions/setup-go@v5
+
+      - name: Setup Nightly Build Hugo
+        if: ${{ matrix.version == 'master' }}
+        run: go install -tags extended github.com/gohugoio/hugo@${{ matrix.version }}
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
+        if: ${{ matrix.version != 'master' }}
         with:
           extended: true
           hugo-version: ${{ matrix.version }}
