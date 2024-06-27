@@ -24,6 +24,10 @@ cascade:
     build:
       list: never
       render: never
+  - _target:
+      path: /notes/**
+    params:
+      type: docs
 
 outputs:
   home:
