@@ -24,11 +24,6 @@ cascade:
     build:
       list: never
       render: never
-  - _target:
-      path: /archives/**
-    build:
-      list: never
-      render: never
 
 outputs:
   home:
