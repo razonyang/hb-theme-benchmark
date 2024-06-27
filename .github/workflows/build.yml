@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        posts: [1000, 2000, 3000, 4000, 5000, 6000]
-        docs: [100]
+        version: ['0.127.0', '0.128.0']
     steps:
       - uses: actions/checkout@v4
 
@@ -38,10 +37,8 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           extended: true
-
-      - run: npx lorem-ipsum-generator -n ${{ matrix.posts }} -o content/blog
-
-      - run: npx lorem-ipsum-generator -n ${{ matrix.docs }} -o content/docs
+          hugo-version: ${{ matrix.version }}
 
       - name: Build
-        run: hugo --minify | npx hugo-metrics-parser
+        run: |
+          for i in {1..3}; do hugo --minify | npx hugo-metrics-parser && sleep 30; done
